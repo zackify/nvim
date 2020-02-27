@@ -46,8 +46,6 @@
 	call plug#end()
 	let g:rustfmt_autosave = 1
 
-	execute pathogen#infect()
-
 
 " Plugin Setup "
 "
@@ -59,8 +57,6 @@
 	autocmd VimEnter *
 			\   if !argc()
 			\ |   Startify
-			\ |   NERDTree
-			\ |   wincmd w
 			\ | endif
 
 
@@ -225,5 +221,5 @@
 	nmap <leader>p :DeniteProjectDir -start-filter file/rec<CR>
         nmap <leader><Left> :bprevious<CR>
 	nmap <leader><Right> :bnext<CR>
-
+	nmap <leader>t :NERDTreeToggle<CR>
 

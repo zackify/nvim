@@ -1,2 +1,4 @@
 autoload
 bundle
+pack
+colors
