@@ -5,7 +5,7 @@
 - setup [denite requirements](https://github.com/Shougo/denite.nvim#requirements)
 - add [powerline fonts](https://github.com/powerline/fonts)
 - add [nerd fonts](https://github.com/ryanoasis/nerd-fonts)
-
+- add [git gutter](https://github.com/airblade/vim-gitgutter)
 - add to zshrc:
 
 ```
