@@ -17,7 +17,7 @@
 	let g:netrw_winsize = 25
 
 	" save on every escape "
-        inoremap <Esc> <Esc>:w<CR>
+  inoremap <Esc> <Esc>:w<CR>
 
 	" set leader to space "
 	:let mapleader = " "
@@ -110,7 +110,8 @@
 
 
         " === prettier === "
-	autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+        autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+        let g:prettier#quickfix_enabled = 0
 
         " === coc config === "
         let g:coc_global_extensions = ["coc-css",
